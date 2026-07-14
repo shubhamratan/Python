@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} My Website {% endblock %}</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif; padding: 20px;}
+        header {background-color: black; color: azure; padding: 10px;}
+        footer {background-color: brown; padding: 10px; margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h2> My Site</h2>
+        <nav>
+            <a href="/">Main Page</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    
+    {% block content %}
+    {% endblock %}
+
+<footer>
+    <p>@2026 Flask Practice</p>
+</footer>
+
+</body>
+</html>
