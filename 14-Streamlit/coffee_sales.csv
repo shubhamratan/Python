@@ -1,0 +1,11 @@
+Date,City,Coffee_Type,Cups_Sold,Revenue
+2026-11-26,Delhi,Latte,120,12000
+2026-11-26,Delhi,Espresso,100,8000
+2026-11-26,Delhi,Cappuccino,50,10000
+2026-11-26,Mumbai,Latte,100,10000
+2026-11-26,Mumbai,Espresso,80,6400
+2026-11-26,Mumbai,Cappuccino,60,12000
+2026-11-26,Bangalore,Latte,80,8000
+2026-11-26,Bangalore,Espresso,90,7200
+2026-11-26,Bangalore,Cappuccino,80,16000
+
